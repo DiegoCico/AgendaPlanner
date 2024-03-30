@@ -36,6 +36,7 @@ public class App {
         System.out.print("Enter event name: ");
         String eventName = scanner.next();
 
+        scanner.nextLine();
         System.out.print("Enter event description: ");
         String eventDescription = scanner.nextLine();
 
